@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>BuyFast</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/productos.css">
+    </head>
+    <body>
+        <!-- Dentro del header tendremos el menu -->
+   
+            <nav class="navbar navbar-light bg-light" id="navbarPequeño">
+                <!-- Image and text -->
+                <a class="navbar-brand texto inicio" href="#">
+                    <div class="row">
+                    <div class="col-4">
+                    <img src="img/logo.png" width="60"  class="d-inline-block align-top" alt="">
+                    </div>
+                    <div class="col-6" id="textoLogo">
+                        BuyFast
+                    </div>
+                </div>
+                </a>
+                <!-- Collapse button -->
+                <button class="navbar-toggler first-button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent20"
+                aria-controls="navbarSupportedContent20" aria-expanded="false" aria-label="Toggle navigation" style="border: none;">
+                <div class="animated-icon1"><span></span><span></span><span></span></div>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent20">
+  
+                    <!-- Links -->
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Subir productos
+                            </a>
+                            <div class="dropdown-menu bg-light" aria-labelledby="navbarDropdown" style="border: none;">
+                              <a class="dropdown-item altaVehiculo" href="#">Subir vehiculos</a>
+                              <a class="dropdown-item altaRopa" href="#">Subir ropas</a>
+                              <a class="dropdown-item altaElectronica" href="#">Subir electronicas</a>
+                              <a class="dropdown-item altaOtros" href="#">Subir otros</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Editar productos
+                            </a>
+                            <div class="dropdown-menu bg-light" aria-labelledby="navbarDropdown" style="border: none;">
+                              <a class="dropdown-item modificarVehiculos" href="#">Editar vehiculos</a>
+                              <a class="dropdown-item modificarRopas" href="#">Editar ropas</a>
+                              <a class="dropdown-item modificarElectronicas" href="#">Editar electronicas</a>
+                              <a class="dropdown-item modificarOtros" href="#">Editar otros</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Eliminar productos
+                            </a>
+                            <div class="dropdown-menu bg-light" aria-labelledby="navbarDropdown" style="border: none;">
+                              <a class="dropdown-item eliminarVehiculos" href="#">Eliminar vehiculos</a>
+                              <a class="dropdown-item eliminarRopas" href="#">Eliminar ropas</a>
+                              <a class="dropdown-item eliminarElectronicas" href="#">Eliminar electronicas</a>
+                              <a class="dropdown-item eliminarOtros" href="#">Eliminar otros</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Mis productos
+                            </a>
+                            <div class="dropdown-menu bg-light" aria-labelledby="navbarDropdown" style="border: none;">
+                              <a class="dropdown-item listaVehiculos" href="#">Mis vehiculos</a>
+                              <a class="dropdown-item listaRopas" href="#">Mis ropas</a>
+                              <a class="dropdown-item listaElectronicas" href="#">Mis electronicas</a>
+                              <a class="dropdown-item listaOtros" href="#">Mis otros</a>
+                            </div>
+                        </li>
+                        <li class="nav-item active">
+                          <a class="nav-link registro" href="misChats.html" id="misChats">Mis chats</a>
+                        </li>
+                        <div class="dropdown-divider"></div>
+                      <li class="nav-item">
+                        <a class="nav-link" href="php/cerrarSesion.php" style="color: red;">Cerrar sesión</a>
+                      </li>
+                    </ul>
+                    <!-- Links -->
+                
+                </div>
+            </nav>
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbarGrande">
+                <!-- Image and text -->
+                <a class="navbar-brand texto inicio" href="#">
+                    <div class="row">
+                    <div class="col-4">
+                    <img src="img/logo.png" width="60"  class="d-inline-block align-top" alt="">
+                    </div>
+                    <div class="col-6" id="textoLogo">
+                        BuyFast
+                    </div>
+                </div>
+                </a>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Subir productos
+                            </a>
+                            <div class="dropdown-menu bg-light" aria-labelledby="navbarDropdown" style="border: none;">
+                              <a class="dropdown-item altaVehiculo" href="#">Subir vehiculos</a>
+                              <a class="dropdown-item altaRopa" href="#">Subir ropas</a>
+                              <a class="dropdown-item altaElectronica" href="#">Subir electronicas</a>
+                              <a class="dropdown-item altaOtros" href="#">Subir otros</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Editar productos
+                            </a>
+                            <div class="dropdown-menu bg-light" aria-labelledby="navbarDropdown" style="border: none;">
+                              <a class="dropdown-item modificarVehiculos" href="#">Editar vehiculos</a>
+                              <a class="dropdown-item modificarRopas" href="#">Editar ropas</a>
+                              <a class="dropdown-item modificarElectronicas" href="#">Editar electronicas</a>
+                              <a class="dropdown-item modificarOtros" href="#">Editar otros</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Eliminar productos
+                            </a>
+                            <div class="dropdown-menu bg-light" aria-labelledby="navbarDropdown" style="border: none;">
+                              <a class="dropdown-item eliminarVehiculos" href="#">Eliminar vehiculos</a>
+                              <a class="dropdown-item eliminarRopas" href="#">Eliminar ropas</a>
+                              <a class="dropdown-item eliminarElectronicas" href="#">Eliminar electronicas</a>
+                              <a class="dropdown-item eliminarOtros" href="#">Eliminar otros</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Mis productos
+                            </a>
+                            <div class="dropdown-menu bg-light" aria-labelledby="navbarDropdown" style="border: none;">
+                              <a class="dropdown-item listaVehiculos" href="#">Mis vehiculos</a>
+                              <a class="dropdown-item listaRopas" href="#">Mis ropas</a>
+                              <a class="dropdown-item listaElectronicas" href="#">Mis electronicas</a>
+                              <a class="dropdown-item listaOtros" href="#">Mis otros</a>
+                            </div>
+                        </li>
+                        <li class="nav-item active">
+                          <a class="nav-link registro" href="misChats.html" id="misChats">Mis chats</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle waves-effect waves-light" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fas fa-user"></i>
+                          </a>
+                          <div class="dropdown-menu dropdown-menu-right dropdown-default" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="nav-link modificarUsuarios" href="#">Editar usuario</a>
+                            <a class="nav-link" href="php/cerrarSesion.php" style="color: red;">Cerrar sesión</a>
+                          </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            
+
+        <!-- Cuerpo de la pagina -->
+        <div class="container-fluid" id="compras">
+            <div class="row" id="pregunta">
+                <div class="col-12 text-center">
+                    <h2>¿Qué estas buscando hoy?</h2>
+                </div>
+            </div>
+            <div class="row" id="logos">
+                <div class="logo text-center" id="logo1">
+                    <a href="#" id="compraVehiculos">
+                        <img src="img/cocheLogo.png" style="width: 60px;">
+                    </a>
+                    <p style="padding-top: 6%;">Vehículos</p>
+                </div>
+                <div class="logo text-center" id="logo2">
+                    <a href="#" id="compraRopas">
+                        <img src="img/ropaLogo.png" style="width: 60px;">
+                    </a>
+                    <p style="padding-top: 30%;">Ropas</p>
+                </div>
+                <div class="logo text-center" id="logo3">
+                    <a href="#" id="compraElectronicas">
+                        <img src="img/electronicasLogo.png" style="width: 60px;">
+                    </a>
+                    <p style="padding-top: 10%;">Electronicas</p>
+                </div>
+                <div class="logo text-center" id="logo4">
+                    <a href="#" id="compraOtros">
+                        <img src="img/otrosLogo.png" style="width: 60px;">
+                    </a>
+                    <p style="padding-top: 52%;">Otros</p>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid" style="margin-bottom: 150px;">
+          <!-- Formulario -->
+          <p id="texto1" class="text-center font-weight-bold mt-5"></p>
+          <div id="formularios"></div>
+        </div>
+
+        <!-- Footer -->
+        <!-- sticky Footer -->
+        <footer class="footer">
+          <div class="container-fluid bg-light text-center" id="footer">
+              <div class="email">
+                  <p><b>Puedes contactar con nostros en: BuyFast@gmail.com</b></p>
+              </div>
+              <div class="redSocial">
+                  <a href="#" class="fa fa-facebook"></a>
+                  <a href="#" class="fa fa-twitter"></a>
+                  <a href="#" class="fa fa-instagram"></a>
+              </div>
+          </div>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="jquery/jquery-3.4.1.min.js"></script>
+        <script type="text/javascript" src="jquery-ui/jquery-ui.min.js"></script>
+
+        <script type="text/javascript" src="js/principalProductos.js"></script>
+
+        <script>
+            $(document).ready(function () {
+      
+              $('.first-button').on('click', function () {
+      
+              $('.animated-icon1').toggleClass('open');
+              });
+          });
+        </script>
+    </body>
+</html>
